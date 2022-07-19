@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Casa dos Salgados - Homepage</title>
 
+    <!-- Swiper Touch Slider -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
     <!-- font awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
@@ -22,7 +25,7 @@
 
 <nav class="navbar">
     <a href="#home">Página Inicial</a>
-    <a href="#Sobremesas">Sobremesas</a>
+    <a href="#dishes">Sobremesas</a>
     <a href="#Sobre Nós">Sobre nós</a>
     <a href="#Menu">Menu</a>
     <a href="#Revisão">Revisão</a>
@@ -38,16 +41,185 @@
     
 </header>
 
-
-
 <!-- header section ends -->
 
 
+<!-- search from starts-->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="Pesquise Aqui..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- search from ends-->
+
+<!-- home section starts-->
+<section class="home" id="home">
+
+    <div class=" swiper mySwiper home-slider">
+       
+        <div class="swiper-wrapper wrapper">
+           
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Nossos pratos especiais!</span>
+                    <h3>Spicy noodles</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <a href="#" class="btn">Peça agora</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                </div>
+            </div>
+    
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Nossos pratos especiais!</span>
+                    <h3>Fried Chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <a href="#" class="btn">Peça agora</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                </div>
+            </div>
+        
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Nossos pratos especiais!</span>
+                    <h3>Hot Pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur</p>
+                    <a href="#" class="btn">Peça agora</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+            <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends-->
+
+
+<!-- dishes section starts-->
+
+<section class="dishes" id="dishes">
+
+<h3 class="sub-heading"> Nossos Pratos</h3>
+<h3 class="heading"> Pratos mais famosos</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-1.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$15.99</span>
+            <a href="#" class="btn">Adicionar à Sacola</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-2.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$15.99</span>
+            <a href="#" class="btn">Adicionar à Sacola</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$15.99</span>
+            <a href="#" class="btn">Adicionar à Sacola</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-4.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$15.99</span>
+            <a href="#" class="btn">Adicionar à Sacola</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$15.99</span>
+            <a href="#" class="btn">Adicionar à Sacola</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="">
+            <h3>tasty food</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <span>R$15.99</span>
+            <a href="#" class="btn">Adicionar à Sacola</a>
+        </div>
+
+
+</section>
+<!-- dishes section ends-->
 
 
 
 
-
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 <!-- custom js file link -->
 <script src="js/script.js"></script>
